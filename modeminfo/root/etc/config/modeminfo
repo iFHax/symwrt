@@ -1,3 +1,4 @@
-config general 
 
-config modeminfo
+config settings 'settings'
+	option refresh_rate '5'
+	option comm '/dev/ttyUSB3'
